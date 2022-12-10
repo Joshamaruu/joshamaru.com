@@ -1,0 +1,112 @@
+ul {
+    margin: none;
+    padding: 0px;
+}
+
+
+li {
+    list-style: none;
+    float:right;
+    margin-left: 20px;
+}
+
+.w {
+    background-color: black;
+    padding: 20px 10px;
+    margin: none;
+    
+}
+
+
+a {
+    color:lime;
+    text-decoration: none;
+    margin-left:10px
+    
+   
+}
+
+a:hover {
+    animation: hkf 2s infinite;
+}
+
+@keyframes hkf {
+    50%{color:grey;}
+    75%{color:rgb(148, 146, 146);}
+    100%{color:white;}
+}
+
+
+.wlcme {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:lime;
+    border-bottom: solid lime 2px; 
+    animation:h1 alternate-reverse infinite 3s;
+}
+
+body {
+    background-color:rgb(14, 13, 13);
+    animation:body 1s;
+    font-family: 'Raleway', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,300&display=swap');
+
+ul li ul li {
+    display:none;
+    background-color: lime;
+    color:rgb(0, 255, 106);
+    text-align: center;
+    padding:0px 0px;
+
+}
+
+ul li:hover ul li  {
+    display:inline-block;
+    color:rgb(0, 255, 13);
+    background-color: rgb(0, 0, 0);
+    border:2px solid lime;
+    padding:1px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.h {
+    background-color: rgb(72, 255, 0);
+    border:solid 2px lime;
+   
+    
+}
+
+@keyframes h1 {
+    from {
+        color:lime;
+    }
+
+    to {
+        color:rgb(5, 143, 5);border-color:rgb(5, 143, 5);
+    }
+    to {
+        color:rgb(8, 80, 8);border-color:rgb(8, 80, 8);
+    }
+
+    to {
+        color:rgb(4, 41, 4);border-color:rgb(2, 22, 2);
+    }
+
+    
+}
+
+
+
+@keyframes body {
+    50%{opacity:.1;}
+    100%{opacity:1;}
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+
