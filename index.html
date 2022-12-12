@@ -1,54 +1,124 @@
-<link rel="stylesheet" href="style.css">
-<head>
-    <link rel="icon" href="faviconjoshua.ico">
-</head>
-<title>
-    Home
-</title>
-
-<div class="w">
-    <ul>
-        <li><a href="script.html"> SCRIPTS </a></li>
-        <li><a href="#"> ABOUT </a>
-        <li><a href="#"> TOOLS</a>
-            <li><a href="gta.html"> GTA </a></li>
-            <li> <a href="#"> RANDOM</a> <ul><Br>
-                <li><a href="#"> BOOKMARKLETS</a> </li><br>
-                <li><a href="#"> ROMS </a></li>
-            </ul></li>
-        <ul>
-
-
-  
-
-    </ul>
-    </li>
-</ul>
+<div style="border-radius:20px;align-items: center;justify-content: center;display: flex;">
+   <br><br><br><br>
+<input id="xx" placeholder="Type a Supported Game" style="border-radius:20px;align-items: center;justify-content: center;display: flex;color:lime;background-color: black;border:2px lime solid;"> </input>
+<img src="search.png" onclick="xx()"  style="height:30px;width:30px;border-radius:2px;">
 </div>
+<br> <br><br><br><br>
 
+<p> Suggestions:<br><br> Blox Fruits<br> Build a Boat</p>
 
-           <br><br><br><br>
-      <div class="wlcme">
-    <h1> Welcome to Joshamaru's Site.</h1>
-</div>
+<style>
+    ::placeholder {
+        color:lime;
+        opacity: 0.62;;
+    }
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,300&family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
-<br><br>
-<div class="search" style="display: flex;justify-content: center;align-items: center;">
-<input type="text" style="padding:5px 50px;background-color:black;border:2px solid lime;border-radius: 20px;" id="input">
-    <img src="search.png" onclick="start()" style="height:29.5px;width:35px;border-radius: 10px;" alt='https://joshamaru.com/search.png'>
-</div>
+    input {
+        padding:5px 100px;
+    }
 
+    body {
+        background-color: rgb(14, 13, 13);
+    }
+    p {
+        color:lime;
+        text-align: center;
+    }
+
+    .bloxfruits {
+display:none;
+justify-content: center;
+align-items: center;
+    }
+    
+    .babft {
+        display:none;
+justify-content: center;
+align-items: center;
+    }
+
+    </style>
+    
+
+    <div class="games">
+        <div class="bloxfruits" id="bloxfruits">
+            <img src="bloxfruits.jpg">
+            <br>
+            <div class="ripperhub" style="background-color:black;padding:20px 20px;">
+            <h3 style="background-color: black;color:lime;font-family: 'Rubik Glitch', cursive;"> Ripper Hub</h3>
+            <a download="ripperhub.lua.txt" href="ripperhub.lua.txt"><button style="background-color: black;border:2px solid lime;color:Lime;"> Save as .txt</button> </a>
+            </div>
+        </div>
+        <div class="babft" id="babft">
+            <img src="babft.jpg">
+            <br>
+
+            <div class="myscript" id="myscript" style="background-color:black;padding:20px 20px;" >
+                <h3 style="background-color: black;color:lime;font-family: 'Rubik Glitch', cursive;"> My Script</h3>
+               <a download="myscript.txt.lua" href="myscript.txt.lua"><button style="background-color: black;border:2px solid lime;color:Lime;"> Save as .txt</button></a>
+            </div>
+        </div>
+    </div>
     <script>
-        function start() {
-            var i = document.getElementById('input').value;
-            if(i == 'discord') {
-                window.open('https://discord.gg/HFsFwqtq');
-               
-            }
-            else if(i == 'Discord') {
-                 window.open('https://discord.gg/HFsFwqtq');
+        function xx() {
+            //variables
+var x = document.getElementById('xx').value;
+//if statements for search
+if(x == 'Blox Fruits') {
+document.getElementById('bloxfruits').style.display = 'flex';
+    }
+    else if(x == 'bloxfruits') {
+        document.getElementById('bloxfruits').style.display = 'flex';
 
-            }
+    }
+    else if(x == 'blox fruits '){
+        document.getElementById('bloxfruits').style.display = 'flex';
+
+    }
+    else if(x == 'BloxFruits') {
+        document.getElementById('bloxfruits').style.display = 'flex';
+
+    }
+    else if(x == 'Blox Fruits') {
+        document.getElementById('bloxfruits').style.display = 'flex';
+
+    }
+    else if(x == 'blox'){
+        document.getElementById('bloxfruits').style.display = 'flex';
+
+    }
+
+    else if(x == 'fruits') {
+        document.getElementById('bloxfruits').style.display = 'flex';
+
+    }
+    if(x == 'babft') {
+        document.getElementById('babft').style.display = 'flex';
+
+    }
+
+    else if(x == 'buildaboatfortreasure') {
+        document.getElementById('babft').style.display = 'flex';
+
+    }
+
+    else if(x == 'buildaboat') {
+        document.getElementById('babft').style.display = 'flex';
+
+    }
+
+    else if(x == 'Build a Boat') {
+        document.getElementById('babft').style.display = 'flex';
+
+    }
+    else if(x =='Build a Boat For Treasure') {
+        document.getElementById('babft').style.display = 'flex';
+
+    }
+    else if(x == 'buildboat'){
+        document.getElementById('babft').style.display = 'flex';
+
+    }
         }
+
     </script>
