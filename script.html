@@ -1,7 +1,7 @@
 <div style="border-radius:20px;align-items: center;justify-content: center;display: flex;">
    <br><br><br><br>
 <input id="xx" placeholder="Type a Supported Game" style="border-radius:20px;align-items: center;justify-content: center;display: flex;color:lime;background-color: black;border:2px lime solid;"> </input>
-<img src="search.png" onclick="xx()"  style="height:30px;width:30px;border-radius:2px;" alt='https://joshamaru.com/search.png'>
+<img src="search.png" onclick="xx()"  style="height:30px;width:30px;border-radius:2px;">
 </div>
 <br> <br><br><br><br>
 
@@ -30,6 +30,12 @@ display:none;
 justify-content: center;
 align-items: center;
     }
+    
+    .babft {
+        display:none;
+justify-content: center;
+align-items: center;
+    }
 
     </style>
     
@@ -40,7 +46,16 @@ align-items: center;
             <br>
             <div class="ripperhub" style="background-color:black;padding:20px 20px;">
             <h3 style="background-color: black;color:lime;font-family: 'Rubik Glitch', cursive;"> Ripper Hub</h3>
-            <a download="ripperhub.lua.txt" href="ripperhub.lua.txt"><button style='background-color:black;color:lime;border:2px solid lime;'> Save as .txt</button> </a>
+            <a download="ripperhub.lua.txt" href="ripperhub.lua.txt"><button style="background-color: black;border:2px solid lime;color:Lime;"> Save as .txt</button> </a>
+            </div>
+        </div>
+        <div class="babft" id="babft">
+            <img src="babft.jpg">
+            <br>
+
+            <div class="myscript" id="myscript" style="background-color:black;padding:20px 20px;" >
+                <h3 style="background-color: black;color:lime;font-family: 'Rubik Glitch', cursive;"> My Script</h3>
+               <a download="myscript.txt.lua" href="myscript.txt.lua"><button style="background-color: black;border:2px solid lime;color:Lime;"> Save as .txt</button></a>
             </div>
         </div>
     </div>
@@ -78,8 +93,32 @@ document.getElementById('bloxfruits').style.display = 'flex';
 
     }
     if(x == 'babft') {
+        document.getElementById('babft').style.display = 'flex';
 
     }
-}
+
+    else if(x == 'buildaboatfortreasure') {
+        document.getElementById('babft').style.display = 'flex';
+
+    }
+
+    else if(x == 'buildaboat') {
+        document.getElementById('babft').style.display = 'flex';
+
+    }
+
+    else if(x == 'Build a Boat') {
+        document.getElementById('babft').style.display = 'flex';
+
+    }
+    else if(x =='Build a Boat For Treasure') {
+        document.getElementById('babft').style.display = 'flex';
+
+    }
+    else if(x == 'buildboat'){
+        document.getElementById('babft').style.display = 'flex';
+
+    }
+        }
 
     </script>
