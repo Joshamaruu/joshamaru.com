@@ -110,3 +110,17 @@ ul li:hover ul li  {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
 
 
+.search {
+    color:lime;
+}
+
+
+input {
+text-align: center;
+font-size: 20px;
+}
+
+input:focus {
+    color:lime;
+    border-color: lime;
+}
