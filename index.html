@@ -8,7 +8,7 @@
 
 <div class="w">
     <ul>
-        <li><a href="script.html"> SCRIPTS </a></li>
+        <li><a href="#"> SCRIPTS </a></li>
         <li><a href="#"> ABOUT </a>
         <li><a href="#"> TOOLS</a>
             <li><a href="gta.html"> GTA </a></li>
@@ -23,7 +23,7 @@
 
     </ul>
     </li>
-</ul>   
+</ul>
 </div>
 
 
@@ -35,16 +35,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,300&family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
 <br><br>
 <div class="search" style="display: flex;justify-content: center;align-items: center;">
-<input type="text" style="padding:5px 50px;background-color:black;border:2px solid lime;border-radius: 20px;" id="input" onkeydown="if(event.keyCode == 13)document.getElementById('xxxx').click() ">
+<input type="text" style="padding:5px 50px;background-color:black;border:2px solid lime;border-radius: 20px;" id="input" onkeydown="if(event.keyCode == 13)document.getElementById('xxxx').click()">
     <img src="search.png" onclick="start()" style="height:29.5px;width:35px;border-radius: 10px;" id="xxxx">
 </div>
 
     <script>
         function start() {
             var i = document.getElementById('input').value;
-            if(i == 'discord') {
+             if(i == 'discord' || i == 'Discord' || i == 'discord ' || i == 'Discord '){
                 window.open('https://discord.gg/HFsFwqtq');
-               
-            }
+
+             }
+             if(i == ''){
+                document.write('<h1 style="text-align:center;color:lime;"> Commands: </h1> <p style="text-align:center"> Type: Discord<br> To Get An Invite To The Server<br><br> Type: Roblox<br> To Get A Link To My Profile</p><style> body{background-color:black;}p{color:lime;}</style>')
+             }
+             if(i == 'Roblox' || i == 'roblox'){
+                window.open('https://www.roblox.com/users/735313785/profile')
+             }
         }
     </script>
