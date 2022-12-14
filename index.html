@@ -6,11 +6,11 @@
     Home
 </title>
 
-<div class="w">
+<div class="w" id="www">
     <ul>
-        <li><a href="#"> SCRIPTS </a></li>
-        <li><a href="#"> ABOUT </a>
-        <li><a href="#"> TOOLS</a>
+        <li><a href="#" > SCRIPTS </a></li>
+        <li><a href="#" > ABOUT </a>
+        <li><a href="#"  > TOOLS</a>
             <li><a href="gta.html"> GTA </a></li>
             <li> <a href="#"> RANDOM</a> <ul><Br>
                 <li><a href="#"> BOOKMARKLETS</a> </li><br>
@@ -48,9 +48,15 @@
              }
              if(i == ''){
                 document.write('<h1 style="text-align:center;color:lime;"> Commands: </h1> <p style="text-align:center"> Type: Discord<br> To Get An Invite To The Server<br><br> Type: Roblox<br> To Get A Link To My Profile</p><style> body{background-color:black;}p{color:lime;}</style>')
+                setTimeout(refre , 20000)
              }
              if(i == 'Roblox' || i == 'roblox'){
                 window.open('https://www.roblox.com/users/735313785/profile')
              }
+            
+
+             function refre(){
+                location.reload()
+             }
         }
-    </script>
+    </script>  
